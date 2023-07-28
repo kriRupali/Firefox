@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  padding: 10vw 35vw;
+}
+
+.logo img {
+  height: 80px;
+  width: 80px;
+}
+header main div {
+  display: flex;
+  gap: 1vw;
+  padding-bottom: 3vw;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  /* padding-top: 1vw; */
+  text-transform: capitalize;
+  font-size: 50px;
+}
+#searchbar {
+  height: 50px;
+  /* width: 500px; */
+  /* border: none; */
+  /* text-align: center; */
+  width: 100%;
+  padding: 0 30px;
+  border-radius: 5px;
+}
+#searchbar:focus {
+  border-color: aqua;
+  outline: aqua;
+}
+.smallcards {
+  padding: 0px 18vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  border: 1px solid rgba(245, 245, 245, 0.733);
+  /* box-shadow: 2px 3px 1px grey; */
+}
+.smallcards > div {
+  padding: 15px;
+}
+.smallcards > div:hover {
+  /* box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.822); */
+  background-color: rgb(205, 202, 202);
+}
+.small-card1 {
+  box-shadow: 5px 10px 30px grey;
+}
+.small-card2 {
+  box-shadow: 5px 10px 30px grey;
+}
+.small-card3 {
+  box-shadow: 5px 10px 30px grey;
+}
+.small-card4 {
+  box-shadow: 5px 10px 30px grey;
+}
+.small-card5 {
+  box-shadow: 5px 10px 30px grey;
+}
+.small-card6 {
+  box-shadow: 5px 10px 30px grey;
+}
+
+.multi-cards {
+  padding: 35px 15vw;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.multi-cards > div {
+  margin: auto;
+}
+.multi-cards div.multi-card1 {
+  height: 350px;
+  width: 300px;
+  box-shadow: 5px 10px 20px rgba(62, 62, 62, 0.852);
+  overflow: hidden;
+  text-align: center;
+}
+.multi-cards div.multi-card1 li img:hover {
+  box-shadow: 5px 10px 50px rgb(62, 62, 62);
+}
+.multi-cards div.multi-card1 h3:hover {
+  color: rgba(8, 0, 255, 0.779);
+}
+.multi-cards div.multi-card2 {
+  height: 350px;
+  width: 300px;
+  box-shadow: 5px 10px 20px grey;
+  overflow: hidden;
+  text-align: center;
+}
+.multi-cards div.multi-card2 li img:hover {
+  box-shadow: 5px 10px 50px rgb(62, 62, 62);
+}
+.multi-cards div.multi-card2 h3:hover {
+  color: rgba(8, 0, 255, 0.779);
+}
+.multi-cards div.multi-card3 {
+  height: 350px;
+  width: 300px;
+  box-shadow: 5px 10px 20px grey;
+  overflow: hidden;
+  text-align: center;
+}
+.multi-cards div.multi-card3 li img:hover {
+  box-shadow: 5px 10px 50px rgb(62, 62, 62);
+}
+.multi-cards div.multi-card3 h3:hover {
+  color: rgba(8, 0, 255, 0.779);
+}
+.multi-cards div.multi-card4 {
+  height: 350px;
+  width: 300px;
+  box-shadow: 5px 10px 20px grey;
+  overflow: hidden;
+  text-align: center;
+}
+.multi-cards div.multi-card4 li img:hover {
+  box-shadow: 5px 10px 50px rgb(62, 62, 62);
+}
+.multi-cards div.multi-card4 h3:hover {
+  color: rgba(8, 0, 255, 0.779);
+}
+.multi-cards div.multi-card5 {
+  height: 350px;
+  width: 300px;
+  box-shadow: 5px 10px 20px grey;
+  overflow: hidden;
+  text-align: center;
+}
+.multi-cards div.multi-card5 li img:hover {
+  box-shadow: 5px 10px 50px rgb(62, 62, 62);
+}
+.multi-cards div.multi-card5 h3:hover {
+  color: rgba(8, 0, 255, 0.779);
+}
+.multi-cards div.multi-card6 {
+  height: 350px;
+  width: 300px;
+  box-shadow: 5px 10px 20px grey;
+  overflow: hidden;
+  text-align: center;
+}
+.multi-cards div.multi-card6 li img:hover {
+  box-shadow: 5px 10px 50px rgb(62, 62, 62);
+}
+.multi-cards div.multi-card6 h3:hover {
+  color: rgba(8, 0, 255, 0.779);
+}
+.multi-cards div.multi-card6 {
+  height: 350px;
+  width: 300px;
+  box-shadow: 5px 10px 20px grey;
+  overflow: hidden;
+  text-align: center;
+}
+.multi-cards div.multi-card6 li img:hover {
+  box-shadow: 5px 10px 50px rgb(62, 62, 62);
+}
+.multi-cards div.multi-card6 h3:hover {
+  color: rgba(8, 0, 255, 0.779);
+}
+.multi-cards div.multi-card7 {
+  height: 350px;
+  width: 300px;
+  box-shadow: 5px 10px 20px grey;
+  overflow: hidden;
+  text-align: center;
+}
+.multi-cards div.multi-card7 li img:hover {
+  box-shadow: 5px 10px 50px rgb(62, 62, 62);
+}
+.multi-cards div.multi-card7 h3:hover {
+  color: rgba(8, 0, 255, 0.779);
+}
+.multi-cards div.multi-card8 {
+  height: 350px;
+  width: 300px;
+  box-shadow: 5px 10px 20px grey;
+  overflow: hidden;
+  text-align: center;
+}
+.multi-cards div.multi-card8 li img:hover {
+  box-shadow: 5px 10px 50px rgb(62, 62, 62);
+}
+.multi-cards div.multi-card8 h3:hover {
+  color: rgba(8, 0, 255, 0.779);
+}
+.multi-cards div.multi-card9 {
+  height: 350px;
+  width: 300px;
+  box-shadow: 5px 10px 20px grey;
+  overflow: hidden;
+  text-align: center;
+}
+.multi-cards div.multi-card9 li img:hover {
+  box-shadow: 5px 10px 50px rgb(62, 62, 62);
+}
+.multi-cards div.multi-card9 h3:hover {
+  color: rgba(8, 0, 255, 0.779);
+}
+
+.bottom {
+  padding: 10px 16vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bottom > div {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.bottom ul {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.bottom > div ul li::marker {
+  content: ".";
+}
